@@ -1,0 +1,97 @@
+/* General styling for the entire body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Styling for the main container */
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  max-width: 100%;
+}
+
+/* Style for the input field */
+input[type="text"], textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Style for the submit button */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the submit button */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the dropdown */
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Style for the error message */
+.error {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+/* Style for the response section */
+.response {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Style for individual response items */
+.response-item {
+  margin-bottom: 10px;
+}
+
+.response-item strong {
+  font-weight: bold;
+}
+
+/* Styling for different response categories */
+.numbers {
+  color: #007BFF;
+}
+
+.alphabets {
+  color: #28a745;
+}
+
+.highest-lowercase {
+  color: #dc3545;
+}
