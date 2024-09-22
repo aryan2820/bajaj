@@ -21,7 +21,7 @@ function App() {
         return;
       }
 
-      const response = await axios.post('http://localhost:3000/bfhl', {
+      const response = await axios.post('https://bajaj-1-c96h.onrender.com/bfhl', {
         data: parsedData.data,
         file_b64: parsedData.file_b64 || ''
       });
